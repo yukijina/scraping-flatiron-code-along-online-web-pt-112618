@@ -12,7 +12,7 @@ class Course
   end
   
   def self.reset_all  
-    self
+    self.class.all.clear
   end
 end 
 
